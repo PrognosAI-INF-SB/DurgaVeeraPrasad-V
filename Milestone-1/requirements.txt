@@ -1,0 +1,12 @@
+# 1) Requirements : Install dependencies
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+tensorflow
+streamlit
+plotly
+pyyaml
+joblib
+tqdm
