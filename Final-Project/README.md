@@ -26,20 +26,20 @@ PrognosAI applies deep-learning-based RUL estimation to NASA’s CMAPSS dataset.
 
 ## 2. Dataset Description
 
-- **Source:** NASA CMAPSS Dataset  
-- **Features:** 21 sensors and 3 operational settings  
-- **Units:** Multiple engine units (FD001–FD004)  
-- **Structure:** Training and test files include degradation sequences  
-- **Target:** Remaining Useful Life (RUL)
+- Source: NASA CMAPSS Dataset  
+- Features: 21 sensors and 3 operational settings  
+- Units: Multiple engine units (FD001–FD004)  
+- Structure: Training and test files include degradation sequences  
+- Target: Remaining Useful Life (RUL)
 
 ---
 
 ## 3. System Architecture
 
 **Figure 1: PrognosAI System Architecture**  
-Data Collection → Preprocessing → Feature Scaling → LSTM Model Training → RUL Prediction → Visualization and Alerts  
+Data Collection → Preprocessing → Feature Scaling → LSTM Model Training → RUL Prediction → Visualization and Alerts
 
-[![PrognosAI System Architecture](Screenshots/PrognosAI_Architecture_Diagram.png)](Screenshots/PrognosAI_Architecture_Diagram.png)
+![PrognosAI System Architecture](Screenshots/PrognosAI_Architecture_Diagram.png)
 
 ### Workflow Stages
 
@@ -143,20 +143,15 @@ Data Collection → Preprocessing → Feature Scaling → LSTM Model Training �
 
 ### Figures
 
-**Figure 2:** Dashboard Settings, Results and Visualizations  
-Engine Life Summary Table, Alert Status Distribution, Remaining Useful Life (Days)  
+**Figure 2:** Dashboard Settings, Results and Visualizations, Engine Life Summary Table, Alert Status Distribution, Remaining Useful Life (Days) and Engine Life Span.
 
-[![Dashboard Visualizations](Screenshots/PrognosAI_Dashboard_Visualization.png)](Screenshots/PrognosAI_Dashboard_Visualization.png)
+![Dashboard Visualizations](Screenshots/PrognosAI_AlertDistribution_RemainingUsefulLife_EngineLifeSpan.png)
 
-**Figure 3:** Engine Life Span Overview and Comparison  
-Test File Comparison, Average RUL per Test File, Predicted RUL Comparison  
+**Figure 3:** Engine Life Span Overview and Comparison, Test File Comparison, Average RUL per Test File and Predicted RUL Comparison.
 
-[![Engine Life Span Overview](Screenshots/PrognosAI_Engine_Life_Span.png)](Screenshots/PrognosAI_Engine_Life_Span.png)
+![Engine Life Span Overview](Screenshots/PrognosAI_AverageRULperTestFile_DetailedFileExploration.png)
 
-**Figure 4:** Alert Distribution and Predicted RUL per Engine  
-(Localhost: 8501 – Streamlit Dashboard)  
-
-[![Alert Distribution](Screenshots/PrognosAI_Alert_Distribution.png)](Screenshots/PrognosAI_Alert_Distribution.png)
+ (Localhost: 8501 – Streamlit Dashboard)
 
 ---
 
@@ -196,7 +191,8 @@ Special thanks to NASA for providing the CMAPSS dataset and to my peers for thei
 
 ## References and Tools Used
 
-- **Languages:** Python 3.10  
-- **Libraries:** tensorflow, keras, pandas, numpy, sklearn, sklearn.preprocessing, sklearn.metrics, matplotlib, plotly, streamlit, joblib, reportlab  
-- **Dataset:** NASA CMAPSS  
-- **Environment:** Jupyter Notebook, VS Code, Streamlit
+- Languages: Python 3.10  
+- Libraries: tensorflow, keras, pandas, numpy, sklearn, sklearn.preprocessing, sklearn.metrics, matplotlib, plotly, streamlit, joblib, reportlab  
+- Dataset: NASA CMAPSS  
+- Environment: Jupyter Notebook, VS Code, Streamlit
+
