@@ -143,20 +143,15 @@ Data Collection → Preprocessing → Feature Scaling → LSTM Model Training �
 
 ### Figures
 
-**Figure 2:** Dashboard Settings, Results and Visualizations  
-Engine Life Summary Table, Alert Status Distribution, Remaining Useful Life (Days)
+**Figure 2:** Dashboard Settings, Results and Visualizations, Engine Life Summary Table, Alert Status Distribution, Remaining Useful Life (Days) and Engine Life Span.
 
-![Dashboard Visualizations](Screenshots/PrognosAI_Dashboard_Visualization.png)
+![Dashboard Visualizations](Screenshots/PrognosAI_AlertDistribution_RemainingUsefulLife_EngineLifeSpan.png)
 
-**Figure 3:** Engine Life Span Overview and Comparison  
-Test File Comparison, Average RUL per Test File, Predicted RUL Comparison
+**Figure 3:** Engine Life Span Overview and Comparison, Test File Comparison, Average RUL per Test File and Predicted RUL Comparison.
 
-![Engine Life Span Overview](Screenshots/PrognosAI_Engine_Life_Span.png)
+![Engine Life Span Overview](Screenshots/PrognosAI_AverageRULperTestFile_DetailedFileExploration.png)
 
-**Figure 4:** Alert Distribution and Predicted RUL per Engine  
-(Localhost: 8501 – Streamlit Dashboard)
-
-![Alert Distribution](Screenshots/PrognosAI_Alert_Distribution.png)
+ (Localhost: 8501 – Streamlit Dashboard)
 
 ---
 
