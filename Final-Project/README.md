@@ -149,7 +149,7 @@ Data Collection → Preprocessing → Feature Scaling → LSTM Model Training �
 
 **Figure 3:** Engine Life Span Overview and Comparison, Test File Comparison, Average RUL per Test File and Predicted RUL Comparison.
 
-![Engine Life Span Overview](Screenshots/PrognosAI_AverageRULperTestFile_DetailedFileExploration.png)
+![Engine Life Span Overview](Screenshots/PrognosAI_AverageRULperTessFile_DetailedFileExploration.png)
 
  (Localhost: 8501 – Streamlit Dashboard)
 
